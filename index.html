@@ -12,6 +12,8 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <title>(Assignment - 3)</title>
+    <!-- <script src="./script/main.js"></script> -->
+
   </head>
 
   <body>
@@ -37,10 +39,10 @@
               <a href="index.html" class="nav-link active">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
+              <a href="#section-one" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
+              <a href="#team" class="nav-link">Team</a>
             </li>
           </ul>
         </div>
@@ -65,7 +67,7 @@
         </div>
       </section>
 
-      <section class="whatis-section container">
+      <section id="section-one" class="whatis-section container">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 banner-heading text-vertical m-text-center py-3">
@@ -91,6 +93,70 @@
               </div>
         </div>
       </section>
+
+      <section id="team" class="team-section">
+        <div class="container">
+            <h3 class="text-center p-3">Meet Our Team!</h3>
+        </div>
+        <div class="container">
+            <div id=slideshow>
+                <div class="row p-3">
+                    <div class="col-sm">
+                        <img class="img-fluid avt" src="assets/avt/avt-1.jpg" alt="">
+                    </div>
+                    <div class="col-sm text-vertical">
+                        <h3 class="text-center">Noah Wiils</h3>
+                        <p class="text-center">Founder and CEO - Logo</p>
+                    </div>
+                </div>
+                <div class="row p-3 flex-column-reverse flex-md-row">
+                    <div class="col-sm text-vertical">
+                        <h3 class="text-center">Oliver Cathay</h3>
+                        <p class="text-center">Co-Founder - Logo</p>
+
+                    </div>
+                    <div class="col-sm">
+                        <img class="img-fluid avt" src="assets/avt/avt-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row p-3">
+                    <div class="col-sm">
+                        <img class="img-fluid avt" src="assets/avt/avt-3.jpg" alt="">
+                    </div>
+                    <div class="col-sm text-vertical">
+                        <h3 class="text-center">James William</h3>
+                        <p class="text-center">Chief Technical Officer - Logo</p>
+
+                    </div>
+                </div>
+                <div class="row p-3 flex-column-reverse flex-md-row">
+                    <div class="col-sm text-vertical">
+                        <h3 class="text-center">Lucas Fourka</h5>
+                        <p class="text-center">Head of Marketing - Logo</p>
+
+                    </div>
+                    <div class="col-sm">
+                        <img class="img-fluid avt" src="assets/avt/avt-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- <section>
+        <div id="slideshow">
+            <div>
+              <img src="http://farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
+            </div>
+            <div>
+              <img src="http://farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+            </div>
+            <div>
+              Pretty cool eh? This slide is proof the content can be anything.
+            </div>
+         </div>
+      </section> -->
+      
     </main>
 
     <script
@@ -99,11 +165,7 @@
       SameSite="None"
       Secure
     ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -115,5 +177,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./script/main.js"></script>
+
   </body>
 </html>
