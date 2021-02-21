@@ -49,26 +49,30 @@ a.nav-link:hover {
   margin-bottom: auto;
 }
 
-.btn-primary {
-  background-color: #ffffff;
-  color: #227b82;
-  border: none;
+.btn-custom {
+  background-color: #ffffff !important;
+  color: #227b82 !important;
+  border: none !important;
 }
 
-.btn-primary:hover {
-  color: #ffffff;
-  background-color: #ffffff00;
-  border: 1px solid #ffffff;
+.btn-custom:hover {
+  color: #ffffff !important;
+  background-color: #ffffff00 !important;
+  border: 1px solid #ffffff !important;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active {
-  color: #ffffff;
-  background-color: #ffffff00;
-  border: 1px solid #ffffff;
+.btn-custom:not(:disabled):not(.disabled):active {
+  color: #ffffff !important;
+  background-color: #ffffff00 !important;
+  border: 1px solid #ffffff !important;
 }
 
 .whatis-section ul li {
   list-style: none;
+}
+
+.heading-color {
+  color: #227b82;
 }
 
 .team-section {
@@ -78,6 +82,29 @@ a.nav-link:hover {
 
 .avt {
   border-radius: 50%;
+}
+
+.btn-custom-contact {
+  width: 100%;
+  background-color: #227b82 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.btn-custom-contact:hover {
+  color: #227b82 !important;
+  background-color: #ffffff00 !important;
+  border: 1px solid#227b82 !important;
+}
+
+.btn-custom-contact:not(:disabled):not(.disabled):active {
+  color: #227b82 !important;
+  background-color: #ffffff00 !important;
+  border: 1px solid #ffffff !important;
+}
+
+footer {
+  background-color: #227b82;
 }
 
 @media only screen and (max-width: 600px) {
